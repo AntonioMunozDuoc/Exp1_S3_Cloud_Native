@@ -30,7 +30,7 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       # Build y Push Pedido Service
-      - name: Build and Push Course Service
+      - name: Build and Push Pedido Service
         uses: docker/build-push-action@v6
         with:
           context: ./pedidoservice
@@ -38,7 +38,7 @@ jobs:
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/pedidoservice:latest
 
       # Build y Push Guia Service
-      - name: Build and Push Enrollment Service
+      - name: Build and Push Guia Service
         uses: docker/build-push-action@v6
         with:
           context: ./guiaservice
