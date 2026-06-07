@@ -20,7 +20,7 @@ public class GuiaDespachoService {
     @Autowired
     private AwsService awsService;
 
-    private final String BUCKET_NAME = "bucketsumativacloud";
+    private final String BUCKET_NAME = "bucketsumativacloud2";
 
     // Ruta temporal de Amazon EFS montada en la instancia EC2
     private final String EFS_PATH = "/mnt/efs/";

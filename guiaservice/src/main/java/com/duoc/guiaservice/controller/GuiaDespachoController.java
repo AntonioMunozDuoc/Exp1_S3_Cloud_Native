@@ -28,7 +28,7 @@ public class GuiaDespachoController {
     @Autowired
     private AwsService awsService;
 
-    private final String BUCKET_NAME = "bucketsumativacloud";
+    private final String BUCKET_NAME = "bucketsumativacloud2";
 
     // 1. Crear guía de despacho
     @PostMapping("/crear")
